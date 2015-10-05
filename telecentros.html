@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="description" content="O Programa Servir foi idealizado pela Ticket, ATN e CNTur, que juntas formam um ingrediente especial na receita para o futuro profissional dos trabalhadores e empresários brasileiros."><!-- COLOCAR CURTA DESCRIÇÃO DA PÁGINA -->
+
+<meta name="keywords" content="programa, servir, cursos, profissionalizantes"> <!-- COLOCAR PALAVRAS CHAVE DA PÁGINA -->
+
+<meta name="country" content="br">
+<meta name="distribution" content="GLOBAL">
+<meta name="expires" content="none">
+<meta name="page_content" content="all">
+<meta name="rating" content="GENERAL">
+<meta name="resource-type" content="DOCUMENT">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="segment" content="any">
+<meta name="target_country" content="br">
+<meta name="user_type" content="any">
+<meta name="language" content="portuguese" />
+<meta name="audience" content="ALL">
+<meta name="country" content="br">
+<meta name="distribution" content="GLOBAL">
+<meta name="revisit-after" content="7">
+<meta name="author" content="Red Cube - Tecnologia e Comunica&ccedil;&atilde;o">
+
+<!--FACEBOOK METATAGS -->
+<meta property="og:title"content="Ticket - Programa Servir" /><!-- COLOCAR TÍTULO PARA DIVULGAÇÃO NO FACEBOOK -->
+<meta property="og:type" content="company" />
+<meta property="og:url" content="http://www.ticket.com.br/programaservir" /><!-- COLOCAR URL(COMPLETA) FINAL DA PÁGINA -->
+<meta property="og:image" content="http://www.ticket.com.br/programaservir/img/share.png" /><!-- COLOCAR URL(COMPLETA) FINAL DA IMAGEM PARA COMPARTILHAR NO FACEBOOK -->
+<meta property="og:description" content="O Programa Servir foi idealizado pela Ticket, ATN e CNTur, que juntas formam um ingrediente especial na receita para o futuro profissional dos trabalhadores e empresários brasileiros." /><!-- COLOCAR DESCRIÇÃO CURTA DA PÁGINA ASSIM COMO NA META TAG DESCRIPTION ACIMA, SÓ QUE AQUI É PARA A VISUALIZAÇÃO NO FACEBOOK -->
+
+<title>Ticket - Programa Servir</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+<!-- codigo de paginação  -->
+<link type="text/css" rel="stylesheet" href="http://atn-ticket.com.br/css/styles.scss" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.pajinate.js"></script>
+<!-- codigo de paginação  -->
+
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+<![endif]--> 
+
+<script type="text/javascript">
+		//<script src="js/jquery-1.7.min.js" type="text/javascript">
+			/* mostra o numero de paginação */
+  		$(document).ready(function(){
+				$('#paging_container1').pajinate();
+			});			
+			/*ler as paginas*/
+			$(document).ready(function(){
+				$('#paging_container1').pajinate({
+					items_per_page : 5,
+					nav_label_first : '<<',
+					nav_label_last : '>>',
+					nav_label_prev : '<',
+					nav_label_next : '>'
+				});
+			});	
+</script>
+
+</head>
+  <body>	
+  	<div class="tudo">
+  	  <div class="topo clearfix">
+  	  	<a href="index.html" class="logo ir"></a>
+  	  	<form class="busca" ation="busca.whatever">	
+  	  	  <input type="text" value="Digite uma palavra-chave" />
+  	  	  <input type="submit" value="OK" />
+  	  	</form>
+  	  </div><div style="position:absolute;margin: -78px 325px;">
+  	  		<span style="font-size: 12px;color: #2D2D2D;">PARCERIA:</span><br />
+  	  		<a target="_blank" href="http://www.atn.org.br/" style="margin: 0 7px"><img src="img/atn.png" style="margin-top: 10px;"/></a>
+			<a target="_blank" href="http://www.cntur.com.br/" style="margin: 0 7px"><img src="img/cntur.png" /></a>
+  	  	</div><!--topo-->
+  	  <ul class="menu clearfix">
+		    <li><a href="index.html">Home</a></li><li class="pipe"></li>
+  	  	<li><a href="cursos.html">Conhe&ccedil;a os cursos</a></li><li class="pipe"></li>
+        <li><a href="telecentros.html">Telecentros Conveniados</a></li><li class="pipe"></li>
+  	  	<li><a href="realizacao.html">Realiza&ccedil;&atilde;o</a></li><li class="pipe"></li>
+  	  	<li><a href="videosefotos.html">V&iacute;deos e Fotos</a></li><li class="pipe"></li>
+  	  	<li><a href="contato.html">Contato</a></li>
+  	  </ul>			
+  	  <div class="header">
+        <h2>TELECENTROS CONVENIADOS</h2>
+        <h3>Encontre o Telecentro mais pr&oacute;ximo de voc&ecirc;!</h3>
+				<img src="img/handshake.png" alt="" />
+				<span class="bracket"></span>
+      </div>
+      <div class="corpo clearfix">
+        <div class="maincol clearfix">
+         	<div class="" id="wrapper">
+         		<div class="container" id="paging_container1">
+							<div class="page_navigation"></div>	
+              <!--
+								<%
+									'set conn = server.createobject("adodb.connection")
+									'conn.open application("atn-ticket")		
+									'set db  = conn.execute("SELECT ut.nome AS 'nome', localidade.nome AS 'cidade', ut.resp AS 'responsavel', ut.email AS 'email', ut.tel AS 'telefone'  FROM tbutrain AS ut  INNER JOIN tblocalidade AS localidade ON ut.id_local = localidade.id_local WHERE ut.id_proj = 82 ORDER BY ut.nome")	
+								%>
+              -->  
+		         	<ul class="content listitem">
+								<li>
+									<h5>Telecentro de Santana de Parnaíba</h5>
+									<strong>Cidade:</strong> Santana de Parnaíba - SP<br />
+									<strong>Respons&aacute;vel:</strong> Ivete dos Santos Oliveira<br />
+									<strong>E-mail:</strong> <a href="mailto:ivette-oliveira@hotmail.com, ivete.sat@gmail.com" target=" mailto:_blank">ivette-oliveira@hotmail.com / ivete.sat@gmail.com</a><br />
+									<strong>Telefone:</strong> (11) 4156-4194
+								</li>
+								<li>		
+									<h5>Associação Comercial e Industrial de Limeira</h5>
+									<strong>Cidade:</strong> Limeira - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Renato Augusto <br/>					
+									<strong>E-mail:</strong> <a href="mailto:informatica@acil.org.br" target="_blank">informatica@acil.org.br</a><br/>
+									<strong>Telefone:</strong>(19) 3404-4931
+								</li>										
+								<li>
+									<h5>Pólo Municipal de Apoio Presencial - Universidade Aberta do Brasil</h5>
+									<strong>Cidade:</strong> São Carlos - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Rogéria Kapp<br/>					
+									<strong>E-mail:</strong> <a href="mailto:rogeria.cardoso@fesc.saocarlos.sp.gov.br" target="_blank">rogeria.cardoso@fesc.saocarlos.sp.gov.br</a><br/>
+									<strong>Telefone:</strong>(16) 3413-2953
+								</li>
+								<li>								
+									<h5>Telecentro Jardim Santa Felícia</h5>
+									<strong>Cidade:</strong> São Carlos - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Rogéria Kapp<br/>					
+									<strong>E-mail:</strong> <a href="mailto:rogeria.cardoso@fesc.saocarlos.sp.gov.br" target="_blank">rogeria.cardoso@fesc.saocarlos.sp.gov.br</a><br/>
+									<strong>Telefone:</strong>(16) 3372-1308
+								</li>			
+							  <li>			
+									<h5>Telecentro de informação e negócios - fesc campus1</h5>
+									<strong>Cidade:</strong> São Carlos - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Rogéria Kapp<br/>					
+									<strong>E-mail:</strong> <a href="mailto:rogeria.cardoso@fesc.saocarlos.sp.gov.br" target="_blank">rogeria.cardoso@fesc.saocarlos.sp.gov.br</a><br/>
+									<strong>Telefone:</strong>(16) 3372-1308
+								</li>
+								<li>
+									<h5>Telecentro CDHU</h5>
+									<strong>Cidade:</strong> Araraquara - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Pedro Castro<br/>					
+									<strong>E-mail:</strong> <a href="mailto:castro@telecentroararaquara.com.br" target="_blank">castro@telecentroararaquara.com.br</a><br/>
+									<strong>Telefone:</strong>(16) 3461-0020
+								</li>
+								<li>
+									<h5>Terminal Rodoviário de Araraquara</h5>
+									<strong>Cidade:</strong> Araraquara - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Pedro Castro<br/>					
+									<strong>E-mail:</strong> <a href="mailto:castro@telecentroararaquara.com.br" target="_blank">castro@telecentroararaquara.com.br</a><br/>
+									<strong>Telefone:</strong>(16) 3322-4618
+								</li>
+								<li>
+									<h5>Telecentro Biblioteca Municipal</h5>
+									<strong>Cidade:</strong> Araraquara - SP <br/>
+									<strong>Respons&aacute;vel:</strong> Pedro Castro<br/>					
+									<strong>E-mail:</strong> <a href="mailto:castro@telecentroararaquara.com.br" target="_blank">castro@telecentroararaquara.com.br</a><br/>
+									<strong>Telefone:</strong>(16) 3332-0777<br/>					
+								</li>	
+								<li>
+									<h5>Telecentro de Caetité</h5>
+									<strong>Cidade:</strong> Caetité - BA <br/>
+									<strong>Respons&aacute;vel:</strong> Adelice Miranda<br/>					
+									<strong>E-mail:</strong> <a href="mailto:fenixamr@gmail.com" target="_blank">fenixamr@gmail.com</a><br/>
+									<strong>Telefone:</strong>(77) 9117-7117
+								</li>					
+								<li>
+									<h5>Telecentro de Breu Branco</h5>
+									<strong>Cidade:</strong> Breu Branco - PB <br />
+									<strong>Respons&aacute;vel:</strong> Adelson Brito dos Santos<br />					
+									<strong>E-mail:</strong> <a href="mailto:gabrielmicrotek@hotmail.com" target="_blank">gabrielmicrotek@hotmail.com</a><br />
+									<strong>Telefone:</strong>(94) 9132-3569
+								</li>					
+								<li>
+									<h5>Telecentro de Belém</h5>
+									<strong>Cidade:</strong> Belém - PA <br />
+									<strong>Respons&aacute;vel:</strong> Agostinho dos Santos Filho<br />					
+									<strong>E-mail:</strong> <a href="mailto:augusto.hijo@yahoo.com.br" target="_blank">augusto.hijo@yahoo.com.br</a><br />
+									<strong>Telefone:</strong>(91)3244-7353
+								</li>					
+								<li>
+									<h5>Telecentro Simpi</h5>
+									<strong>Cidade:</strong> Porto Velho - RO <br />
+									<strong>Respons&aacute;vel:</strong> Ana Luiza Sobral<br />					
+									<strong>E-mail:</strong> <a href="mailto:analuiza.sobral@simpi.net" target="_blank">analuiza.sobral@simpi.net</a><br />
+									<strong>Telefone:</strong>(69) 3026-2108
+								</li>					
+								<li>
+									<h5>Telecentro de Raposos</h5>
+									<strong>Cidade:</strong> Raposos - MG <br />
+									<strong>Respons&aacute;vel:</strong> Beatriz<br />					
+									<strong>E-mail:</strong> <a href="mailto:beatrizmnp@oi.com.br" target="_blank">beatrizmnp@oi.com.br</a><br />
+									<strong>Telefone:</strong>(31) 9679-1045
+								</li>					
+								<li>
+									<h5>Telecentro de Areia Branca</h5>
+									<strong>Cidade:</strong> Areia Branca - RN <br />
+									<strong>Respons&aacute;vel:</strong> Carlos Alberto Bezerra Júnior<br />					
+									<strong>E-mail:</strong> <a href="mailto:educ.carlosjunior@gmail.com" target="_blank">educ.carlosjunior@gmail.com</a><br />
+									<strong>Telefone:</strong>(84) 9667-0085
+								</li>					
+								<li>
+									<h5>Telecentro de Santarém</h5>
+									<strong>Cidade:</strong> Santarém - PA <br />
+									<strong>Respons&aacute;vel:</strong> Carlos André<br />					
+									<strong>E-mail:</strong> <a href="mailto:tnsantarem.pa@atn.org.br" target="_blank">tnsantarem.pa@atn.org.br</a><br />
+									<strong>Telefone:</strong>(93) 9174-7946
+								</li>										
+								<li>
+									<h5>Telecentro de Taperoá</h5>
+									<strong>Cidade:</strong> Taperoá - BA <br />
+									<strong>Respons&aacute;vel:</strong> Daniela Gonçalves<br />					
+									<strong>E-mail:</strong> <a href="mailto:danigoncalves1@hotmail.com" target="_blank">danigoncalves1@hotmail.com</a><br />
+									<strong>Telefone:</strong>(75) 9918-1180
+								</li>										
+								<li>
+									<h5>Telecentro de Correntina </h5>
+									<strong>Cidade:</strong> Correntina - BA <br />
+									<strong>Respons&aacute;vel:</strong> Jairo José de Oliveira<br />					
+									<strong>E-mail:</strong> <a href="mailto:jairooliveira13@yahoo.com.br" target="_blank">jairooliveira13@yahoo.com.br</a><br />
+									<strong>Telefone:</strong>(77) 3488-7040
+								</li>										
+								<li>
+									<h5>Telecentro de Panelas </h5>
+									<strong>Cidade:</strong> Panelas - PE <br />
+									<strong>Respons&aacute;vel:</strong> Jaqueline Jacilene<br />					
+									<strong>E-mail:</strong> <a href="mailto:jaqueline.sesi@hotmail.com" target="_blank">jaqueline.sesi@hotmail.com</a><br />
+									<strong>Telefone:</strong>(81) 9721-6981
+								</li>										
+								<li>
+									<h5>Telecentro de Serrinha </h5>
+									<strong>Cidade:</strong> Serrinha - BA <br />
+									<strong>Respons&aacute;vel:</strong> Jose Jorge da Silva<br />					
+									<strong>E-mail:</strong> <a href="mailto:jjcarrilho@oi.com.br" target="_blank">jjcarrilho@oi.com.br</a><br />
+									<strong>Telefone:</strong>(75)3261-4534
+								</li>										
+								<li>
+									<h5>Telecentro Engenheiro de Caldas  </h5>
+									<strong>Cidade:</strong> Engenheiro de Caldas - MG <br />
+									<strong>Respons&aacute;vel:</strong> Kamille Barroso Ventura<br />					
+									<strong>E-mail:</strong> <a href="mailto:kbvmusician@msn.com" target="_blank">kbvmusician@msn.com</a><br />
+									<strong>Telefone:</strong>(33) 3234-4215
+								</li>															
+								<li>
+									<h5>Telecentro Rio de Janeiro </h5>
+									<strong>Cidade:</strong> Rio de Janeiro - RJ <br />
+									<strong>Respons&aacute;vel:</strong> Luiz Bruno<br />					
+									<strong>E-mail:</strong> <a href="mailto:luizweb@gmail.com" target="_blank">luizweb@gmail.com</a><br />
+									<strong>Telefone:</strong>(21) 3394-3062
+								</li>															
+								<li>
+									<h5>Telecentro de Tracunhaém </h5>
+									<strong>Cidade:</strong> Tracunhaém - PE <br />
+									<strong>Respons&aacute;vel:</strong> Maria Célia<br />					
+									<strong>E-mail:</strong> <a href="mailto:celia_inacio@hotmail.com" target="_blank">celia_inacio@hotmail.com</a><br />
+									<strong>Telefone:</strong>(81) 9267-4300
+								</li>															
+								<li>
+									<h5>Telecentro de Jequié </h5>
+									<strong>Cidade:</strong> Jequié - BA <br />
+									<strong>Respons&aacute;vel:</strong> Gildenita Barbosa<br />					
+									<strong>E-mail:</strong> <a href="mailto:gigil8bio@yahoo.com.br" target="_blank">gigil8bio@yahoo.com.br</a><br />
+									<strong>Telefone:</strong>(73) 8806-5745 
+								</li>																							
+								<li>
+									<h5>Telecentro de Buerarema </h5>
+									<strong>Cidade:</strong> Buerarema - BA <br />
+									<strong>Respons&aacute;vel:</strong> Jose Carlos Santos<br />					
+									<strong>E-mail:</strong> <a href="mailto:jcarlosconcessor@hotmail.com" target="_blank">jcarlosconcessor@hotmail.com</a><br />
+									<strong>Telefone:</strong>(73) 8843-0444 
+								</li>															
+								<li>
+									<h5>Telecentro de Areal </h5>
+									<strong>Cidade:</strong> Areal - RJ <br />
+									<strong>Respons&aacute;vel:</strong> Rosane Maria de Asevedo<br />					
+									<strong>E-mail:</strong> <a href="mailto:rosanemaria@ig.com.br" target="_blank">rosanemaria@ig.com.br</a><br />
+									<strong>Telefone:</strong>(24) 9227-5715 
+								</li>															
+								<li>
+									<h5>Tin Prefeitura Municipal de Casca </h5>
+									<strong>Cidade:</strong> Casca - RS <br />
+									<strong>Respons&aacute;vel:</strong> Carmem Odila Birckegt<br />					
+									<strong>E-mail:</strong> <a href="mailto:turismo@pmcasca.com.br" target="_blank">turismo@pmcasca.com.br</a><br />
+									<strong>Telefone:</strong>(54) 3347-1233 
+								</li>															
+								<li>
+									<h5>Telecentro Isaías Coelho </h5>
+									<strong>Cidade:</strong> Isaías Coelho - PI <br />
+									<strong>Respons&aacute;vel:</strong> Valmir Gabriel de Aguiar<br />					
+									<strong>E-mail:</strong> <a href="mailto:valmirdeaguiar@gmail.com" target="_blank">valmirdeaguiar@gmail.com</a><br />
+									<strong>Telefone:</strong>(89) 9421-0905 
+								</li>															
+								<li>
+									<h5>Telecentro de Palmeiras </h5>
+									<strong>Cidade:</strong> Palmeiras - BA <br />
+									<strong>Respons&aacute;vel:</strong> Hiandra Rodrigues<br />					
+									<strong>E-mail:</strong> <a href="mailto:hiandrasol@yahoo.com.br" target="_blank">hiandrasol@yahoo.com.br</a><br />
+									<strong>Telefone:</strong>(75) 3344-1005 
+								</li>															
+								<li>
+									<h5>Telecentro de Quedas do Iguaçu </h5>
+									<strong>Cidade:</strong> Quedas do Iguaçu - PR <br />
+									<strong>Respons&aacute;vel:</strong> Zenilda Aparecida Portela<br />					
+									<strong>E-mail:</strong> <a href="mailto:zenilda.vale@hotmail.com" target="_blank">zenilda.vale@hotmail.com</a><br />
+									<strong>Telefone:</strong>(46) 9901-8620 
+								</li>															
+								<li>
+									<h5>Telecentro de Alto Rio Novo </h5>
+									<strong>Cidade:</strong> Alto Rio Novo - ES <br />
+									<strong>Respons&aacute;vel:</strong> Modestina Mataveli<br />					
+									<strong>E-mail:</strong> <a href="mailto:modestina06@hotmail.com" target="_blank">modestina06@hotmail.com</a><br />
+									<strong>Telefone:</strong>(27) 3746-1743 
+								</li>															
+								<li>
+									<h5>Telecentro de Parnamirim </h5>
+									<strong>Cidade:</strong> Parnamirim - PE <br />
+									<strong>Respons&aacute;vel:</strong> Hermogenes Sampaio<br />					
+									<strong>E-mail:</strong> <a href="mailto:hermogenes13@yahoo.com.br" target="_blank">hermogenes13@yahoo.com.br</a><br />
+									<strong>Telefone:</strong>(87) 9603-0038
+								</li>															
+								<li>	
+									<h5>Telecentro de Chapadão do Céu </h5>
+									<strong>Cidade:</strong> Chapadão do Céu - GO <br />
+									<strong>Respons&aacute;vel:</strong> Lourdes Gorgen<br />					
+									<strong>E-mail:</strong> <a href="mailto:gorgenlurdes@hotmail.com" target="_blank">gorgenlurdes@hotmail.com</a><br />
+									<strong>Telefone:</strong>(64) 3634-2232
+								</li>															
+								<li>
+									<h5>Cedis do Brasil </h5>
+									<strong>Cidade:</strong> Socorro - SP <br />
+									<strong>Respons&aacute;vel:</strong> Sandra Cristina<br />					
+									<strong>E-mail:</strong> <a href="mailto:sandra@cedis.com.br" target="_blank">sandra@cedis.com.br</a><br />
+									<strong>Telefone:</strong>(19) 3895-5816
+								</li>															
+								<li>
+									<h5>Telecentro de Itapetinga </h5>
+									<strong>Cidade:</strong> Itapetinga - BA <br />
+									<strong>Respons&aacute;vel:</strong> Fábio Santos<br />					
+									<strong>E-mail:</strong> <a href="mailto:fabbios@msn.com" target="_blank">fabbios@msn.com</a><br />
+									<strong>Telefone:</strong>(77) 3261-1376
+								</li>															
+								<li>
+									<h5>Telecentro de Itapagibe </h5>
+									<strong>Cidade:</strong> Itapagibe - MG <br />
+									<strong>Respons&aacute;vel:</strong> José Salvador<br />					
+									<strong>E-mail:</strong> <a href="mailto:salvador_marquesmg@hotmail.com" target="_blank">salvador_marquesmg@hotmail.com</a><br />
+									<strong>Telefone:</strong>(34) 9143-4301
+								</li>															
+								<li>
+									<h5>Telecentro de Santa Gertrudes </h5>
+									<strong>Cidade:</strong> Santa Gertrudes - SP <br />
+									<strong>Respons&aacute;vel:</strong> Lilian Cristina<br />					
+									<strong>E-mail:</strong> <a href="mailto:liliancv@gmail.com" target="_blank">liliancv@gmail.com</a><br />
+									<strong>Telefone:</strong>(19) 3545-4095
+								</li>															
+								<li>
+									<h5>Telecentro Campo Limpo de Goiás </h5>
+									<strong>Cidade:</strong> Campo Limpo de Goiás - GO <br />
+									<strong>Respons&aacute;vel:</strong> Leandro Crispim<br />					
+									<strong>E-mail:</strong> <a href="mailto:lecriscao@hotmail.com" target="_blank">lecriscao@hotmail.com</a><br />
+									<strong>Telefone:</strong>(62) 9191-9058<br />															
+								</li>
+								<li>
+									<h5>Telecentro de Planura </h5>
+									<strong>Cidade:</strong> Planura - MG <br />
+									<strong>Respons&aacute;vel:</strong> Diego Gerônimo<br />					
+									<strong>E-mail:</strong> <a href="mailto:diego-silva@hotmail.com" target="_blank">diego-silva@hotmail.com</a><br />
+									<strong>Telefone:</strong>(34) 3427-7027<br />															
+								</li>
+								<li>
+									<h5>Telecentro de São Gonçalo dos Campos </h5>
+									<strong>Cidade:</strong> São Gonçalo dos Campos - BA <br />
+									<strong>Respons&aacute;vel:</strong> Sheila Sodre<br />					
+									<strong>E-mail:</strong> <a href="mailto:sheila.sodre@hotmail.com" target="_blank">sheila.sodre@hotmail.com</a><br />
+									<strong>Telefone:</strong>(75) 8175-8972<br />															
+								</li>
+								<li>	
+									<h5>Telecentro de Bom Jesus da Penha </h5>
+									<strong>Cidade:</strong> Bom Jesus da Penha - MG <br />
+									<strong>Respons&aacute;vel:</strong> Luana Cristina<br />					
+									<strong>E-mail:</strong> <a href="mailto:unimesbjp@yahoo.com.br" target="_blank">unimesbjp@yahoo.com.br</a><br />
+									<strong>Telefone:</strong>(35) 3563-1083<br />															
+								</li>
+								<li>
+									<h5>Telecentro Kolping </h5>
+									<strong>Cidade:</strong> Carapicuíba - SP <br />
+									<strong>Respons&aacute;vel:</strong> Rosana Maria<br />					
+									<strong>E-mail:</strong> <a href="mailto:kolpingnsap@gmail.com" target="_blank">kolpingnsap@gmail.com</a><br />
+									<strong>Telefone:</strong>(11) 4184-7241<br />															
+								</li>
+								<li>
+									<h5>Telecentro Cesane </h5>
+									<strong>Cidade:</strong> Nova Iguaçu - RJ <br />
+									<strong>Respons&aacute;vel:</strong> Edilso Gomes<br />					
+									<strong>E-mail:</strong> <a href="mailto:cesane@hotmail.com" target="_blank">cesane@hotmail.com</a><br />
+									<strong>Telefone:</strong>(21) 3103-9495<br />
+								</li>	
+								<!--</ul>--><!-- listitem -->						
+							</ul>					
+						</div>	
+					</div>		
+					<script>
+						$(document).ready(function(){
+							$('li:odd, .content > *:odd').scss('background-color','#FFD9BF');
+						});
+					</script>
+        </div><!-- maincol -->
+        <div class="sidebar">
+          <div class="sbbox">
+            <h6>Contato</h6>
+            <p>Entre em contato conosco e tire suas d&uacute;vidas ou envie sugest&otilde;es. &Eacute; o seu tempero especial dando sabor na busca por um Brasil cada vez mais preparado para sediar a Copa do Mundo de 2014 e as Olimp&iacute;adas de 2016.<p/>
+            <a href="contato.html">saiba mais...</a>
+          </div>
+          <div class="sbbox">
+            <h6>Realiza&ccedil;&atilde;o & Neg&oacute;cios</h6>
+            <p>O Programa Servir foi idealizado pela Ticket, ATN e CNTur, que juntas formam um ingrediente especial na receita para o futuro profissional dos trabalhadores e empres&aacute;rios brasileiros.<p/>
+            <a href="realizacao.html">saiba mais...</a>
+          </div>
+          <div class="sbbox">
+						<h6>V&iacute;deos e Fotos</h6>
+						<p>A Ticket, a ATN e a CNTur tem uma mensagem especial para voc&ecirc;. Aproveite para acompanhar de perto as turmas e aulas daqueles que j&aacute; adicionaram um tempero especial ao futuro profissional.</p>
+						<a href="videosefotos.html">Saiba mais...</a>
+          </div>
+        </div><!-- sidebar -->
+      </div>
+  	</div><!--tudo-->
+  	<div class="rodape">
+			<div class="rodapecontainer clearfix">
+			  <a href="http://www.ticket.com.br/portal/edenred/" target="_blank" class="edenred ir">Edenred</a>
+
+			</div><!-- rodapecontainer -->
+    </div><!-- rodape -->
+	  <script src="js/plugins.js"></script>
+		<script src="js/Novel_Sans_Pro_ExtraBold_850.js"></script>
+		<script src="js/Novel_Sans_Pro_700.js"></script>
+		<script src="js/Novel_Sans_Pro_ExtraLight.js"></script>
+		<script src="js/scripts.js"></script>
+		<!-- Google Analytics
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script> -->
+  </body>
+</html>
